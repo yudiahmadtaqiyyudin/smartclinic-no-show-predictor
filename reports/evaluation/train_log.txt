@@ -1,0 +1,14 @@
+Data bersih: (110514, 12) | train (88411, 12) | test (22103, 12)
+Dimensi fitur: 92 | selisih maks transform manual vs scikit-learn: 0.00e+00
+pos_weight = 3.953 | train 79569 | val 8842
+[config 0] {'hidden_dims': [32], 'dropout': 0.2, 'lr': 0.001, 'weight_decay': 1e-05} epoch=38 val_F1=0.4373 val_AUC=0.7178
+[config 1] {'hidden_dims': [64, 32], 'dropout': 0.3, 'lr': 0.001, 'weight_decay': 1e-05} epoch=39 val_F1=0.4429 val_AUC=0.7279
+[config 2] {'hidden_dims': [64, 32], 'dropout': 0.3, 'lr': 0.001, 'weight_decay': 0.001} epoch=16 val_F1=0.4402 val_AUC=0.7255
+[config 3] {'hidden_dims': [128, 64], 'dropout': 0.4, 'lr': 0.001, 'weight_decay': 0.0001} epoch=29 val_F1=0.4398 val_AUC=0.7280
+[config 4] {'hidden_dims': [128, 64], 'dropout': 0.5, 'lr': 0.0005, 'weight_decay': 0.001} epoch=39 val_F1=0.4349 val_AUC=0.7263
+[config 5] {'hidden_dims': [32, 16], 'dropout': 0.2, 'lr': 0.001, 'weight_decay': 0.0001} epoch=31 val_F1=0.4351 val_AUC=0.7233
+
+Konfigurasi terpilih: #1 {'hidden_dims': (64, 32), 'dropout': 0.3, 'lr': 0.001, 'weight_decay': 1e-05} (epoch terbaik 39)
+Uji PyTorch: {'accuracy': 0.5885, 'precision': 0.3062, 'recall': 0.8205, 'f1': 0.446, 'roc_auc': 0.7333, 'pr_auc': 0.3672, 'confusion_matrix': [[9346, 8295], [801, 3661]], 'train_auc': 0.7626, 'gap_auc': 0.0293, 'diagnosis': 'Good fit'}
+Model tersimpan: model/model_no_show.pth (44.4 KB)
+Selesai dalam 187.2 detik

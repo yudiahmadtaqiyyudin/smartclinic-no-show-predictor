@@ -1,0 +1,76 @@
+{
+  "Logistic Regression": {
+    "best_params": {
+      "class_weight": "balanced",
+      "C": 0.001
+    },
+    "accuracy": 0.6672849839388318,
+    "precision": 0.320059731209557,
+    "recall": 0.5764231286418646,
+    "f1": 0.41158585373659784,
+    "roc_auc": 0.6749093193444198,
+    "train_auc": 0.6741005676032221,
+    "confusion_matrix": [
+      [
+        12177,
+        5464
+      ],
+      [
+        1890,
+        2572
+      ]
+    ],
+    "seconds": 29.0
+  },
+  "Decision Tree": {
+    "best_params": {
+      "min_samples_leaf": 200,
+      "max_depth": 7,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "accuracy": 0.5631814685789259,
+    "precision": 0.2982987648566768,
+    "recall": 0.8606006275212909,
+    "f1": 0.4430343236227286,
+    "roc_auc": 0.7233237262498522,
+    "train_auc": 0.7335274103550783,
+    "confusion_matrix": [
+      [
+        8608,
+        9033
+      ],
+      [
+        622,
+        3840
+      ]
+    ],
+    "seconds": 54.5
+  },
+  "Random Forest": {
+    "best_params": {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_features": 0.5,
+      "max_depth": 12,
+      "class_weight": "balanced"
+    },
+    "accuracy": 0.603537981269511,
+    "precision": 0.31401885323877887,
+    "recall": 0.8137606454504707,
+    "f1": 0.4531669266770671,
+    "roc_auc": 0.7415338339075079,
+    "train_auc": 0.7987773823633453,
+    "confusion_matrix": [
+      [
+        9709,
+        7932
+      ],
+      [
+        831,
+        3631
+      ]
+    ],
+    "seconds": 1251.8
+  }
+}
