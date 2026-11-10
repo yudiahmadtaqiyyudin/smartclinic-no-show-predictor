@@ -38,7 +38,7 @@ smartclinic-no-show-predictor/
 ├── scripts/                   # train.py, verify_model.py, make_report.py
 ├── reports/                   # comparison_part2_vs_part3.csv, evaluation/ (metrik dan grafik)
 ├── tests/                     # pengujian otomatis (pytest)
-├── data/                      # letakkan CSV Kaggle di sini (opsional, lihat data/README.md)
+├── data/                      # letakkan CSV Kaggle (opsional, lihat data/README.md)
 ├── assets/  docs/screenshots/
 ├── requirements.txt  requirements-train.txt  .gitignore  README.md
 └── .streamlit/config.toml
