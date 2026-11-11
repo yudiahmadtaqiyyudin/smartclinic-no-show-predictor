@@ -1,5 +1,19 @@
 # SmartClinic No-Show Predictor
 
+## Informasi Mahasiswa dan Pengembang
+
+| Keterangan     | Informasi                              |
+| :------------- | :------------------------------------- |
+| Nama Mahasiswa | Yudi Ahmad Taqiyyudin                  |
+| NPM            | 202343501555                           |
+| Kelas          | X7J                                    |
+| Program Studi  | Teknik Informatika                     |
+| Fakultas       | Teknik dan Ilmu Komputer               |
+| Universitas    | Universitas Indraprasta PGRI (UNINDRA) |
+| Mata Kuliah    | Machine Learning                       |
+| Dosen Pengampu | Ahmadi, S.Kom., M.T.I.                 |
+| Proyek         | Tugas Besar Machine Learning - Part 3  |
+
 Aplikasi Streamlit untuk memperkirakan kemungkinan pasien rawat jalan **hadir** atau **tidak hadir** pada jadwal
 konsultasi, menggunakan model PyTorch (MLP) yang disimpan dalam file `model/model_no_show.pth`.
 Proyek ini adalah **Tugas Besar Machine Learning - Part 3** (lanjutan Part 1 dan Part 2).
@@ -39,7 +53,7 @@ smartclinic-no-show-predictor/
 ├── reports/                   # comparison_part2_vs_part3.csv, evaluation/ (metrik dan grafik)
 ├── tests/                     # pengujian otomatis (pytest)
 ├── data/                      # letakkan CSV Kaggle (opsional, lihat data/README.md)
-├── assets/  docs/screenshots/
+├── assets/  docs/screenshots/ # Berisi dokument yang dibutuhkan dari tugas besar part 3 (screenshot dan file pdf tugas)
 ├── requirements.txt  requirements-train.txt  .gitignore  README.md
 └── .streamlit/config.toml
 ```
